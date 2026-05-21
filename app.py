@@ -152,7 +152,7 @@ if option=='Overall Analysis':
     with col2:
 
         with st.container(border=True):
-            st.header('Maximum Funding')
+            st.header('Peak Funding')
             st.subheader(f'Cr {original['amount'].max()}')
 
 
