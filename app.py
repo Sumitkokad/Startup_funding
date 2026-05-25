@@ -111,7 +111,9 @@ df['startup']=df['startup'].str.replace("BYJU's","Byju's")
 
 
 
+# Some preprocessing for startup
 
+df['city']=df['city'].str.replace('Bangalore','Bengaluru')
 
 
 
