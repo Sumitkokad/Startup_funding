@@ -266,7 +266,7 @@ def overall_analysis():
 
 def startup_analysis():
     """Startup Analysis Dashboard"""
-    st.markdown('<div class="main-header">🚀 Startup Analysis</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header"> Startup Analysis</div>', unsafe_allow_html=True)
     
     # Startup selection
     startup_options = sorted(df['startup'].unique().tolist())
@@ -347,7 +347,7 @@ def startup_analysis():
 
 def investor_analysis():
     """Investor Analysis Dashboard"""
-    st.markdown('<div class="main-header">💰 Investor Analysis</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header"> Investor Analysis</div>', unsafe_allow_html=True)
     
     # Investor selection
     investor_options = sorted(df['investors'].dropna().unique().tolist())
